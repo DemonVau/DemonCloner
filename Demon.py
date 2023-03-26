@@ -670,35 +670,17 @@ def banner():
 
 
 
-$$$$$$$\  $$$$$$$$\ $$\      $$\  $$$$$$\  $$\   $$\ 
 
-
-$$  __$$\ $$  _____|$$$\    $$$ |$$  __$$\ $$$\  $$ |
-
-
-$$ |  $$ |$$ |      $$$$\  $$$$ |$$ /  $$ |$$$$\ $$ |
-
-
-$$ |  $$ |$$$$$\    $$\$$\$$ $$ |$$ |  $$ |$$ $$\$$ |
-
-
-$$ |  $$ |$$  __|   $$ \$$$  $$ |$$ |  $$ |$$ \$$$$ |
-
-
-$$ |  $$ |$$ |      $$ |\$  /$$ |$$ |  $$ |$$ |\$$$ |
-
-
-$$$$$$$  |$$$$$$$$\ $$ | \_/ $$ | $$$$$$  |$$ | \$$ |
-
-
-\_______/ \________|\__|     \__| \______/ \__|  \__|
-
-
-
-
-
-
-
+ _______   ________  __       __   ______   __    __ 
+/       \ /        |/  \     /  | /      \ /  \  /  |
+$$$$$$$  |$$$$$$$$/ $$  \   /$$ |/$$$$$$  |$$  \ $$ |
+$$ |  $$ |$$ |__    $$$  \ /$$$ |$$ |  $$ |$$$  \$$ |
+$$ |  $$ |$$    |   $$$$  /$$$$ |$$ |  $$ |$$$$  $$ |
+$$ |  $$ |$$$$$/    $$ $$ $$/$$ |$$ |  $$ |$$ $$ $$ |
+$$ |__$$ |$$ |_____ $$ |$$$/ $$ |$$ \__$$ |$$ |$$$$ |
+$$    $$/ $$       |$$ | $/  $$ |$$    $$/ $$ | $$$ |
+$$$$$$$/  $$$$$$$$/ $$/      $$/  $$$$$$/  $$/   $$/ 
+                                                                                                    
 
 \033[1;91m--------------------------------------------
 
@@ -721,12 +703,130 @@ $$$$$$$  |$$$$$$$$\ $$ | \_/ $$ | $$$$$$  |$$ | \$$ |
 \033[1;91m-------------------------------------------"""  )
 
 
+os.system('clear')
 
 
+    banner()   
 
 
+    try:
 
 
+        key1 = open('/sdcard/DEMON.txt', 'r').read()
+
+
+    except IOError:
+
+
+        os.system('clear')
+
+
+        banner()
+
+
+        print ('FUCK YOUR BYPASS SYSTEM')
+
+
+        print ('\x1b[1;92mYou dont have subscrption')
+
+
+        print ('This is paid command so need to aprove')
+
+
+        print ('\033[1;92m If you want to buy presh enter')
+
+
+        print ('')
+
+
+        myid = uuid.uuid4().hex[:10]
+
+
+        print ('         YOUR KEY :\033[1;93m ' + myid + imt)
+
+
+        kok = open('/sdcard/DEMON.txt', 'w')
+
+
+        kok.write(myid + imt)
+
+
+        kok.close()
+
+
+        print ('')
+
+
+        input('   \x1b[0;34mENTER TO BUY TOOLS ')
+
+
+        os.system('am start https://wa.me/+8801886653082?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20DEMON%20Paid%20Tools.%20My%20Key:%20'+key1)
+
+
+        mex()
+
+
+    r = requests.get('https://pastebin.com/raw/Dn5gaQLf'').text
+
+
+    if key1 in r:
+
+
+        print("\33[1;32mYour Token is Successfully Approved")
+
+
+        time.sleep(0.5)
+
+
+        menu()
+
+
+    else:
+
+
+        os.system('clear')
+
+
+        banner()
+
+
+        print ('FUCK YOUR BYPASS SYSTEM')
+
+
+        print('')
+
+
+        print ('You dont have subscrption')
+
+
+        print ('THIS IS PAID COMMAND ')
+
+
+        print ('')
+
+
+        print ('YOUR KEY : \033[1;97m' + key1)
+
+
+        print ('')
+
+
+        print ('\x1b[0;34mIF YOU BUY TOOLS CONTACT ME')
+
+
+        print ('')
+
+
+        input('\033[1;92mIf you want to buy presh entero ')
+
+
+        os.system('am start https://wa.me/+8801948794260?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20DEMON%20Paid%20Tools.%20My%20Key:%20'+key1)
+
+
+        mex()
+
+
+##################
 
 
 
@@ -1954,142 +2054,7 @@ def mex():
     imt = '=DEMON=XD='
 
 
-    os.system('clear')
-
-
-    banner()   
-
-
-    try:
-
-
-        key1 = open('/sdcard/DEMON.txt', 'r').read()
-
-
-    except IOError:
-
-
-        os.system('clear')
-
-
-        banner()
-
-
-        print ('FUCK YOUR BYPASS SYSTEM')
-
-
-        print ('\x1b[1;92mYou dont have subscrption')
-
-
-        print ('This is paid command so need to aprove')
-
-
-        print ('\033[1;92m If you want to buy presh enter')
-
-
-        print ('')
-
-
-        myid = uuid.uuid4().hex[:10]
-
-
-        print ('         YOUR KEY :\033[1;93m ' + myid + imt)
-
-
-        kok = open('/sdcard/DEMON.txt', 'w')
-
-
-        kok.write(myid + imt)
-
-
-        kok.close()
-
-
-        print ('')
-
-
-        input('   \x1b[0;34mENTER TO BUY TOOLS ')
-
-
-        os.system('am start https://wa.me/+8801948794260?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20DEMON%20Paid%20Tools.%20My%20Key:%20'+key1)
-
-
-        mex()
-
-
-    r = requests.get('https://pastebin.com/raw/Dn5gaQLf').text
-
-
-    if key1 in r:
-
-
-        print("\33[1;32mYour Token is Successfully Approved")
-
-
-        time.sleep(0.5)
-
-
-        menu()
-
-
-    else:
-
-
-        os.system('clear')
-
-
-        banner()
-
-
-        print ('FUCK YOUR BYPASS SYSTEM')
-
-
-        print('')
-
-
-        print ('You dont have subscrption')
-
-
-        print ('THIS IS PAID COMMAND ')
-
-
-        print ('')
-
-
-        print ('YOUR KEY : \033[1;97m' + key1)
-
-
-        print ('')
-
-
-        print ('\x1b[0;34mIF YOU BUY TOOLS CONTACT ME')
-
-
-        print ('')
-
-
-        input('\033[1;92mIf you want to buy presh entero ')
-
-
-        os.system('am start https://wa.me/+8801948794260?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20DEMON%20Paid%20Tools.%20My%20Key:%20'+key1)
-
-
-        mex()
-
-
-##################
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 
 #-----------------------[ SYSTEM-CONTROL ]--------------------#
